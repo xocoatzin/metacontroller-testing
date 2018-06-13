@@ -1,0 +1,8 @@
+apiVersion: foo.com/v1
+kind: Sequence
+metadata:
+  name: abc
+spec:
+  forEach:
+    type: "scalar"
+    scalarValue: 20
